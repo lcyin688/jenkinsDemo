@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keyGreenStroked",
+    "texture": "3e241534-0276-425f-a912-9bfd9594fe53",
+    "atlas": "",
+    "rect": [
+      12,
+      10,
+      71,
+      43
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      96,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.PhysicsMaterial",
+  "_name": "floor-physics",
+  "_objFlags": 0,
+  "_native": "",
+  "_friction": 0,
+  "_restitution": 0.5
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wallDecor3",
+    "texture": "38680104-cdc7-4fb2-b7e6-5ad16033f123",
+    "atlas": "",
+    "rect": [
+      12,
+      1,
+      136,
+      127
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      160,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

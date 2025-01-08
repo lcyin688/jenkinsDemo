@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "swordStroked",
+    "texture": "e1a5271d-1c79-4008-8bf7-71860cec788c",
+    "atlas": "",
+    "rect": [
+      10,
+      21,
+      173,
+      55
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      192,
+      96
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blobBlue",
+    "texture": "38bd2815-3c6f-4e18-8e59-0f67c2c9e3e6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      96,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      96,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blobGreen",
+    "texture": "c457a61b-aaaa-4032-a93e-99c5e5af56c6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      96,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      96,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
