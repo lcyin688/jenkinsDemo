@@ -13,12 +13,12 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 276,
+            "width": 306.78125,
             "height": 905,
             "type": "dock-v",
             "children": [
               {
-                "width": 276,
+                "width": 306.78125,
                 "height": 430,
                 "type": "panel",
                 "active": 0,
@@ -27,7 +27,7 @@
                 ]
               },
               {
-                "width": 276,
+                "width": 306.78125,
                 "height": 471.984375,
                 "type": "panel",
                 "active": 0,
@@ -38,17 +38,17 @@
             ]
           },
           {
-            "width": 1035,
+            "width": 1150.40625,
             "height": 905,
             "type": "dock-v",
             "children": [
               {
-                "width": 1035,
+                "width": 1150.40625,
                 "height": 471.984375,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 675,
+                    "width": 750.484375,
                     "height": 471.984375,
                     "type": "panel",
                     "active": 0,
@@ -57,7 +57,7 @@
                     ]
                   },
                   {
-                    "width": 357,
+                    "width": 396.921875,
                     "height": 471.984375,
                     "type": "panel",
                     "active": 0,
@@ -68,7 +68,7 @@
                 ]
               },
               {
-                "width": 1035,
+                "width": 1150.40625,
                 "height": 430,
                 "type": "panel",
                 "active": 0,
@@ -81,7 +81,7 @@
             ]
           },
           {
-            "width": 411,
+            "width": 456.828125,
             "height": 905,
             "type": "panel",
             "active": 0,
@@ -104,13 +104,20 @@
         "cocos-services"
       ]
     },
-    " common-asset-worker-worker": {}
+    " common-asset-worker-worker": {},
+    "window-1736301647644": {}
   },
   "panels": {
     "store": {
       "x": 2168,
       "y": 222,
       "width": 1000,
+      "height": 728
+    },
+    "builder": {
+      "x": 710,
+      "y": 132,
+      "width": 500,
       "height": 728
     }
   },
