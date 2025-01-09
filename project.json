@@ -1,8 +1,8 @@
 {
   "engine": "cocos2d-html5",
   "packages": "packages",
-  "version": "2.4.11",
-  "id": "example-cases",
-  "isNew": false,
-  "name": "testGame"
+  "version": "2.4.13",
+  "name": "NewProject",
+  "id": "9379a924-0b5c-424d-8961-685b4212a5f8",
+  "isNew": false
 }

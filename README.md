@@ -1,2 +1,2 @@
-# jenkinsDemo
-jenkinsDemo
+# hello-world
+Hello world new project template.
