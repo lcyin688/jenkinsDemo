@@ -1,0 +1,11 @@
+{
+    "main": {
+        "version": "4.1.9.4",
+        "submodules": {
+            "basic": "4.1.9.4",
+            "launcher": "4.1.9.4"
+        }
+    },
+    "common": "4.1.9.3",
+    "hall": "4.1.9.5"
+}
