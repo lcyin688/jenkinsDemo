@@ -2,7 +2,7 @@
   "engine": "cocos2d-html5",
   "packages": "packages",
   "version": "2.4.11",
-  "name": "NewProject",
-  "id": "9379a924-0b5c-424d-8961-685b4212a5f8",
+  "name": "helloWorld",
+  "id": "52bec473-b07e-4e56-aeb2-1398450bece2",
   "isNew": false
 }

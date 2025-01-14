@@ -16,9 +16,9 @@
   "mainIsRemote": false,
   "optimizeHotUpdate": false,
   "md5Cache": true,
-  "nativeMd5Cache": true,
-  "encryptJs": false,
-  "xxteaKey": "53d3afec-93c3-45",
+  "nativeMd5Cache": false,
+  "encryptJs": true,
+  "xxteaKey": "daf38742-bcbc-4b",
   "zipCompressJs": true,
   "fb-instant-games": {},
   "android": {
@@ -52,8 +52,5 @@
   },
   "appBundle": false,
   "agreements": {},
-  "openharmony": {
-    "packageName": "com.cocos.openharmony",
-    "REMOTE_SERVER_ROOT": ""
-  }
+  "mergeStartScene": false
 }

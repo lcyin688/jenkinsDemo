@@ -322,10 +322,7 @@ function copyH5Loading() {
  */
 function buildProject() {
     console.log(`构建工程 => 开始`);
-
-    // 移除旧版本
-    removeFire(path.join(buildProjectPath, defaultTemplate));
-
+    let  tempPlateName ="jsb-default"
     // 校准构建配置-settings
     let settingsBuildConfPath = path.join(projectPath, 'settings', 'builder.json');
     let settingsBuildConf = JSON.parse(fs.readFileSync(settingsBuildConfPath, { encoding: 'utf-8' }));
@@ -337,8 +334,9 @@ function buildProject() {
     settingsBuildConf.optimizeHotUpdate = false;
     fs.writeFileSync(settingsBuildConfPath, JSON.stringify(settingsBuildConf, null, 2) + '\n');
 
-    // 移除缓存构建配置-local
-    // removeFire(path.join(buildProjectPath, 'local', 'builder.json'));
+
+    // 移除旧版本
+    removeFire(path.join(buildProjectPath, tempPlateName));
     let cmd = `${enginePath} --path ${projectPath} --build `;
     let params = [`platform=${defaultTemplate}`, `debug=true`];
 
@@ -346,11 +344,12 @@ function buildProject() {
         cmd = cmd + (i === 0 ? '' : ';') + params[i];
     }
 
+    
     new Promise((resolve, reject) => {
         child_process.exec(cmd, (error, stdout, stderr) => {
 
             // Built to "/Volumes/work/jenkinsDemo/build/jenkinsDemoAnd/web-mobile" successfully
-            if (!stdout.includes(`Built to "${path.join(buildProjectPath, defaultTemplate)}" successfully`)) {
+            if (!stdout.includes(`Built to "${path.join(buildProjectPath,tempPlateName)}" successfully`)) {
                 console.log(`构建工程 => stdout: ${stdout}`);
                 console.log(`构建工程 => stderr: ${stderr}`);
                 console.log(`构建工程 => 失败`);
@@ -481,7 +480,7 @@ function createBundle() {
 }
 
 /** 默认模板 */
-const defaultTemplate = 'web-mobile';
+const defaultTemplate = 'android';
 const tiny = 0;
 const curPath = path.dirname(process.argv[1]);
 /** 是否主包 */
