@@ -104,15 +104,14 @@
         "cocos-services"
       ]
     },
-    "window-1736848196714": {},
-    " build-worker-worker": {}
+    "window-1736848196714": {}
   },
   "panels": {
     "builder": {
-      "x": 2840,
-      "y": 253,
-      "width": 500,
-      "height": 728
+      "x": 1920,
+      "y": 104,
+      "width": 1728,
+      "height": 1079
     },
     "project-settings": {
       "x": 680,

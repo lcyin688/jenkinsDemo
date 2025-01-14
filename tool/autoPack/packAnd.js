@@ -332,6 +332,7 @@ function buildProject() {
     settingsBuildConf.inlineSpriteFrames_native = false;
     settingsBuildConf.mergeStartScene = false;
     settingsBuildConf.optimizeHotUpdate = false;
+    settingsBuildConf.mergeStartScene = false;
     fs.writeFileSync(settingsBuildConfPath, JSON.stringify(settingsBuildConf, null, 2) + '\n');
 
 

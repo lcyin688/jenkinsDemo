@@ -8,10 +8,10 @@
   },
   "packageName": "org.cocos2d.helloworld",
   "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "title": "hello_world",
+  "title": "hello_world111",
   "webOrientation": "auto",
   "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": false,
+  "inlineSpriteFrames_native": true,
   "mainCompressionType": "default",
   "mainIsRemote": false,
   "optimizeHotUpdate": false,
@@ -51,6 +51,5 @@
     "recordPath": ""
   },
   "appBundle": false,
-  "agreements": {},
-  "mergeStartScene": false
+  "agreements": {}
 }
