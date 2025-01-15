@@ -7,8 +7,8 @@
       "windowType": "dockable",
       "x": 0,
       "y": 25,
-      "width": 1920,
-      "height": 992,
+      "width": 1900,
+      "height": 972,
       "layout": {
         "type": "dock-h",
         "children": [
@@ -48,7 +48,7 @@
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 749.34375,
+                    "width": 748.984375,
                     "height": 471.984375,
                     "type": "panel",
                     "active": 0,
@@ -57,7 +57,7 @@
                     ]
                   },
                   {
-                    "width": 398.640625,
+                    "width": 399,
                     "height": 471.984375,
                     "type": "panel",
                     "active": 0,
@@ -103,18 +103,23 @@
         "inspector",
         "cocos-services"
       ]
-    },
-    "window-1736921437444": {}
+    }
   },
   "panels": {
     "builder": {
-      "x": 1927,
-      "y": 112,
+      "x": 334,
+      "y": 25,
       "width": 853,
-      "height": 1064
+      "height": 992
     },
     "project-settings": {
       "x": 680,
+      "y": 232,
+      "width": 584,
+      "height": 554
+    },
+    "preferences": {
+      "x": 678,
       "y": 232,
       "width": 584,
       "height": 554
