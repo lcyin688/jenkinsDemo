@@ -322,7 +322,7 @@ function copyH5Loading() {
  */
 function buildProject() {
     console.log(`构建工程 => 开始`);
-    let  tempPlateName ="jsb-default"
+    let  tempPlateName ="jsb-link"
     // 校准构建配置-settings
     let settingsBuildConfPath = path.join(projectPath, 'settings', 'builder.json');
     let settingsBuildConf = JSON.parse(fs.readFileSync(settingsBuildConfPath, { encoding: 'utf-8' }));
@@ -344,13 +344,13 @@ function buildProject() {
     for (let i = 0; i < params.length; i++) {
         cmd = cmd + (i === 0 ? '' : ';') + params[i];
     }
-
+    console.log(`构建工程 => cmd: `,cmd);
     
     new Promise((resolve, reject) => {
         child_process.exec(cmd, (error, stdout, stderr) => {
 
             // Built to "/Volumes/work/jenkinsDemo/build/jenkinsDemoAnd/web-mobile" successfully
-            if (!stdout.includes(`Built to "${path.join(buildProjectPath,tempPlateName)}" successfully`)) {
+            if (!stdout.includes(`Built to "${path.join(buildProjectPath,"jsb-link")}" successfully`)) {
                 console.log(`构建工程 => stdout: ${stdout}`);
                 console.log(`构建工程 => stderr: ${stderr}`);
                 console.log(`构建工程 => 失败`);
